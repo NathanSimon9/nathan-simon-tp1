@@ -1,0 +1,185 @@
+[gd_scene load_steps=16 format=3 uid="uid://b6fo6ixoswchb"]
+
+[ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://TERRAIN.jpg" id="1_epypp"]
+[ext_resource type="Texture2D" uid="uid://cx2l8qrkorm5g" path="res://BUT.png" id="2_0hol4"]
+[ext_resource type="Texture2D" uid="uid://dcft57j8gpjmt" path="res://but 2.png" id="3_q6r6c"]
+[ext_resource type="Script" uid="uid://besncprlpy2ri" path="res://character_body_2d.gd" id="4_kdubu"]
+[ext_resource type="Texture2D" uid="uid://c886v53d4h5p5" path="res://character_zombie_sheet.png" id="4_q6r6c"]
+
+[sub_resource type="Animation" id="Animation_d21ai"]
+resource_name = "avancer_droit"
+length = 0.684
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(3.72529e-08, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [36, 38, 39, 40, 41, 42, 43]
+}
+
+[sub_resource type="Animation" id="Animation_rj586"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [15]
+}
+
+[sub_resource type="Animation" id="Animation_4d7sh"]
+resource_name = "avancer devant"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [24, 25, 26, 25]
+}
+
+[sub_resource type="Animation" id="Animation_ir8iy"]
+resource_name = "tire"
+length = 0.3995
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.166667, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [12, 19, 14, 20]
+}
+
+[sub_resource type="Animation" id="Animation_hqns4"]
+resource_name = "sauter"
+length = 0.4015
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [12, 1, 8]
+}
+
+[sub_resource type="Animation" id="Animation_x0ka3"]
+resource_name = "celebration"
+length = 0.501
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [22, 21]
+}
+
+[sub_resource type="Animation" id="Animation_0h7mo"]
+resource_name = "but encaisser"
+length = 1.0015
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.566667, 0.833333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [4, 30, 18, 34]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nr8wp"]
+_data = {
+&"RESET": SubResource("Animation_rj586"),
+&"avancer devant": SubResource("Animation_4d7sh"),
+&"avancer_droit": SubResource("Animation_d21ai"),
+&"but encaisser": SubResource("Animation_0h7mo"),
+&"celebration": SubResource("Animation_x0ka3"),
+&"sauter": SubResource("Animation_hqns4"),
+&"tire": SubResource("Animation_ir8iy")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
+size = Vector2(57, 102.837)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kdubu"]
+size = Vector2(1157, 20)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Terrain" type="Sprite2D" parent="."]
+position = Vector2(576, 325)
+scale = Vector2(0.598148, 0.598148)
+texture = ExtResource("1_epypp")
+
+[node name="But" type="Sprite2D" parent="."]
+position = Vector2(48, 438)
+scale = Vector2(0.503906, 0.503906)
+texture = ExtResource("2_0hol4")
+
+[node name="But2" type="Sprite2D" parent="."]
+position = Vector2(1097, 446)
+scale = Vector2(0.505859, 0.505859)
+texture = ExtResource("3_q6r6c")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("4_kdubu")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture_filter = 1
+position = Vector2(180, 463)
+texture = ExtResource("4_q6r6c")
+hframes = 9
+vframes = 5
+frame = 15
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody2D/Sprite2D"]
+libraries = {
+&"": SubResource("AnimationLibrary_nr8wp")
+}
+speed_scale = 1.118
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(179, 478)
+shape = SubResource("RectangleShape2D_q6r6c")
+one_way_collision = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(577, 547)
+shape = SubResource("RectangleShape2D_kdubu")
