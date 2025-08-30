@@ -31,6 +31,8 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("sauter") and is_on_floor():
 
 		velocity.y = jump_velocity
+		
+		$"AudioStreamPlayer2D/Ytmp3Free_ccCartoon-jump-sound-effect-youtubemp3Free_org".play()
 
 		animation_player.play("sauter")
 
@@ -43,6 +45,7 @@ func _physics_process(delta):
 	if direction:
 
 		velocity.x = direction * speed
+		
 
 		# Si le joueur va vers la droite, il joue l'animation et ne retourne pas le sprite
 
@@ -63,6 +66,8 @@ func _physics_process(delta):
 	else:
 
 		velocity.x = move_toward(velocity.x, 0, speed)
+		
+		
 
 		# Joue l'animation de repos (si vous en avez une)
 
