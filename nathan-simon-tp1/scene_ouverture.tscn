@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://djrxp0aqtbbem"]
 
-[ext_resource type="Script" uid="uid://q58mqe5dohnh" path="res://node_2d.gd" id="1_ahet8"]
-[ext_resource type="Texture2D" uid="uid://bet8x34ieldsu" path="res://Untitled-1.jpg" id="2_66fdr"]
-[ext_resource type="Texture2D" uid="uid://cjt0sk1qgjft2" path="res://JOUER.png" id="3_oype5"]
-[ext_resource type="AudioStream" uid="uid://bov6l0m1qmlob" path="res://Just Kickit.mp3" id="4_66fdr"]
+[ext_resource type="Script" uid="uid://q58mqe5dohnh" path="res://logique_boutton.gd" id="1_sac1x"]
+[ext_resource type="Texture2D" uid="uid://ca4f53i6j3eee" path="res://Untitled-1.jpg" id="2_yvyg2"]
+[ext_resource type="Texture2D" uid="uid://cjt0sk1qgjft2" path="res://JOUER.png" id="3_rvwy3"]
+[ext_resource type="AudioStream" uid="uid://bov6l0m1qmlob" path="res://Just Kickit.mp3" id="4_yep21"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahet8"]
 corner_radius_top_left = 25
@@ -12,17 +12,17 @@ corner_radius_bottom_right = 25
 corner_radius_bottom_left = 25
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_ahet8")
+script = ExtResource("1_sac1x")
 
 [node name="Untitled-1" type="Sprite2D" parent="."]
 position = Vector2(576, 326)
 scale = Vector2(0.599277, 0.599277)
-texture = ExtResource("2_66fdr")
+texture = ExtResource("2_yvyg2")
 
 [node name="Jouer" type="Sprite2D" parent="."]
 position = Vector2(547, 559)
 scale = Vector2(0.678761, 0.678761)
-texture = ExtResource("3_oype5")
+texture = ExtResource("3_rvwy3")
 
 [node name="Button" type="Button" parent="."]
 modulate = Color(1, 0.733333, 0.92549, 0.678431)
@@ -34,7 +34,7 @@ offset_bottom = 584.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_ahet8")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_66fdr")
+stream = ExtResource("4_yep21")
 volume_db = -9.36
 autoplay = true
 
