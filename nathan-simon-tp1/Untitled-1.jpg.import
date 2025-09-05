@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0n8dctanjb2q"
-path="res://.godot/imported/Untitled-1.jpg-3308520c1591fd09279dbcc78e2fd1c4.ctex"
+uid="uid://bet8x34ieldsu"
+path="res://.godot/imported/Untitled-1.jpg-3f7355a756a0283c153c318e520f76c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nathan-simon-tp1/Untitled-1.jpg"
-dest_files=["res://.godot/imported/Untitled-1.jpg-3308520c1591fd09279dbcc78e2fd1c4.ctex"]
+source_file="res://Untitled-1.jpg"
+dest_files=["res://.godot/imported/Untitled-1.jpg-3f7355a756a0283c153c318e520f76c8.ctex"]
 
 [params]
 

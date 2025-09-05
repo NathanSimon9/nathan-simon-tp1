@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bov6l0m1qmlob"
+path="res://.godot/imported/Just Kickit.mp3-75fc71bef7ee94992e0836ac37b9d61d.mp3str"
+
+[deps]
+
+source_file="res://Just Kickit.mp3"
+dest_files=["res://.godot/imported/Just Kickit.mp3-75fc71bef7ee94992e0836ac37b9d61d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
