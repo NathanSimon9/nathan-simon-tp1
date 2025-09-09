@@ -1,6 +1,6 @@
 [gd_scene load_steps=44 format=4 uid="uid://b6fo6ixoswchb"]
 
-[ext_resource type="Script" uid="uid://5u6pfmamr006" path="res://logique_jeu.gd" id="1_e0kte"]
+[ext_resource type="Script" uid="uid://e6s5ani7ly25" path="res://logique_jeu.gd" id="1_e0kte"]
 [ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://medias/TERRAIN.jpg" id="2_tkklm"]
 [ext_resource type="PackedScene" uid="uid://xsk83ydpbmxn" path="res://zombie_score.tscn" id="3_tkklm"]
 [ext_resource type="Texture2D" uid="uid://cl38lqe0oqw20" path="res://medias/but gauche arriere.png" id="4_0pxyi"]
