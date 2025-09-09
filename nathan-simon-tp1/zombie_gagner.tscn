@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://d0ftb6vbdnf4u"]
 
 [ext_resource type="Script" uid="uid://c64hrx55iu3xh" path="res://zombie_gagner.gd" id="1_i0b2t"]
-[ext_resource type="Texture2D" uid="uid://fehvvvkey2jq" path="res://zombie gagner.png" id="2_k3tx2"]
-[ext_resource type="AudioStream" uid="uid://c6qfmnfimc1m4" path="res://Chasing Glory.mp3" id="3_k3tx2"]
+[ext_resource type="Texture2D" uid="uid://fehvvvkey2jq" path="res://medias/zombie gagner.png" id="2_k3tx2"]
+[ext_resource type="AudioStream" uid="uid://c6qfmnfimc1m4" path="res://son/Chasing Glory.mp3" id="3_k3tx2"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_i0b2t")

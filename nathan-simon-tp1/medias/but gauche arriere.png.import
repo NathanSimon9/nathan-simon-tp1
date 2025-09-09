@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ewqj2qmy36h8"
-path="res://.godot/imported/TERRAIN.jpg-643991a5436f036dae489b3f9aac42d6.ctex"
+uid="uid://cl38lqe0oqw20"
+path="res://.godot/imported/but gauche arriere.png-8d989a74ee97654d7995358781c9762e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TERRAIN.jpg"
-dest_files=["res://.godot/imported/TERRAIN.jpg-643991a5436f036dae489b3f9aac42d6.ctex"]
+source_file="res://medias/but gauche arriere.png"
+dest_files=["res://.godot/imported/but gauche arriere.png-8d989a74ee97654d7995358781c9762e.ctex"]
 
 [params]
 

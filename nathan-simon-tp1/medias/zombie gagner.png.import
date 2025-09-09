@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ca4f53i6j3eee"
-path="res://.godot/imported/Untitled-1.jpg-3f7355a756a0283c153c318e520f76c8.ctex"
+uid="uid://fehvvvkey2jq"
+path="res://.godot/imported/zombie gagner.png-245708460890b7efeb8f2a19d263d340.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Untitled-1.jpg"
-dest_files=["res://.godot/imported/Untitled-1.jpg-3f7355a756a0283c153c318e520f76c8.ctex"]
+source_file="res://medias/zombie gagner.png"
+dest_files=["res://.godot/imported/zombie gagner.png-245708460890b7efeb8f2a19d263d340.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8bs4mmron1q4"
-path="res://.godot/imported/robot_gagner.jpg-8eaa002582ab043578a3b3964d1d3cc8.ctex"
+uid="uid://dw1b1gt8gh3pm"
+path="res://.godot/imported/ballon.png-4ecb323de3d084cf832e232118956b56.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://robot_gagner.jpg"
-dest_files=["res://.godot/imported/robot_gagner.jpg-8eaa002582ab043578a3b3964d1d3cc8.ctex"]
+source_file="res://medias/ballon.png"
+dest_files=["res://.godot/imported/ballon.png-4ecb323de3d084cf832e232118956b56.ctex"]
 
 [params]
 

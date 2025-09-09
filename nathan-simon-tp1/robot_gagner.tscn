@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://bgjnkkld4d820"]
 
 [ext_resource type="Script" uid="uid://bgg2el4w8gab1" path="res://robot_gagner.gd" id="1_dppri"]
-[ext_resource type="Texture2D" uid="uid://b8bs4mmron1q4" path="res://robot_gagner.jpg" id="2_p681g"]
-[ext_resource type="AudioStream" uid="uid://c6qfmnfimc1m4" path="res://Chasing Glory.mp3" id="3_p681g"]
+[ext_resource type="Texture2D" uid="uid://b8bs4mmron1q4" path="res://medias/robot_gagner.jpg" id="2_p681g"]
+[ext_resource type="AudioStream" uid="uid://c6qfmnfimc1m4" path="res://son/Chasing Glory.mp3" id="3_p681g"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_dppri")

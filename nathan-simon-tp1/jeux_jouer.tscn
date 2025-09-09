@@ -1,23 +1,21 @@
-[gd_scene load_steps=44 format=4 uid="uid://b6fo6ixoswchb"]
+[gd_scene load_steps=42 format=4 uid="uid://b6fo6ixoswchb"]
 
 [ext_resource type="Script" uid="uid://5u6pfmamr006" path="res://logique_jeu.gd" id="1_e0kte"]
-[ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://TERRAIN.jpg" id="2_tkklm"]
-[ext_resource type="Script" uid="uid://b20fkwnh3hdhg" path="res://area_2d.gd" id="3_bncqj"]
-[ext_resource type="Script" uid="uid://du4snwkhs4gh8" path="res://area_2d_2.gd" id="3_tkklm"]
-[ext_resource type="Texture2D" uid="uid://cl38lqe0oqw20" path="res://but gauche arriere.png" id="4_0pxyi"]
-[ext_resource type="Texture2D" uid="uid://dmpc2b002571h" path="res://but arriere droit.png" id="5_f2mva"]
-[ext_resource type="AudioStream" uid="uid://cnu1mewgkcc2i" path="res://ytmp3free.cc_goal-sound-effect-youtubemp3free.org.mp3" id="6_to3vl"]
+[ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://medias/TERRAIN.jpg" id="2_tkklm"]
+[ext_resource type="Texture2D" uid="uid://cl38lqe0oqw20" path="res://medias/but gauche arriere.png" id="4_0pxyi"]
+[ext_resource type="Texture2D" uid="uid://dmpc2b002571h" path="res://medias/but arriere droit.png" id="5_f2mva"]
+[ext_resource type="AudioStream" uid="uid://cnu1mewgkcc2i" path="res://son/ytmp3free.cc_goal-sound-effect-youtubemp3free.org.mp3" id="6_to3vl"]
 [ext_resource type="Script" uid="uid://dbwkmd7h1a5yb" path="res://personnage_robot.gd" id="7_04rok"]
-[ext_resource type="Texture2D" uid="uid://cg34ad4r4pib6" path="res://character_robot_sheetHD.png" id="8_q6c6s"]
-[ext_resource type="AudioStream" uid="uid://c0sgr5oqlcwy5" path="res://footstep_grass_001.ogg" id="9_clg4m"]
-[ext_resource type="AudioStream" uid="uid://batekrfx2vs7" path="res://ytmp3free.cc_cartoon-jump-sound-effect-youtubemp3free.org.mp3" id="10_45map"]
+[ext_resource type="Texture2D" uid="uid://cg34ad4r4pib6" path="res://medias/character_robot_sheetHD.png" id="8_q6c6s"]
+[ext_resource type="AudioStream" uid="uid://c0sgr5oqlcwy5" path="res://son/footstep_grass_001.ogg" id="9_clg4m"]
+[ext_resource type="AudioStream" uid="uid://batekrfx2vs7" path="res://son/ytmp3free.cc_cartoon-jump-sound-effect-youtubemp3free.org.mp3" id="10_45map"]
 [ext_resource type="Script" uid="uid://besncprlpy2ri" path="res://personnage_zombie.gd" id="11_8d277"]
-[ext_resource type="Texture2D" uid="uid://c886v53d4h5p5" path="res://character_zombie_sheet.png" id="12_hkc17"]
-[ext_resource type="Texture2D" uid="uid://dw1b1gt8gh3pm" path="res://ballon.png" id="14_yw4s2"]
-[ext_resource type="Texture2D" uid="uid://cf333x8cgs514" path="res://but droit.png" id="15_o56ie"]
-[ext_resource type="Texture2D" uid="uid://wc3bvwyogkav" path="res://but gauche.png" id="16_n4ss1"]
-[ext_resource type="AudioStream" uid="uid://033nv4cdvi55" path="res://Level Up the Score.mp3" id="17_v2wg6"]
-[ext_resource type="AudioStream" uid="uid://v30iydc3pir5" path="res://goal-22502 (1).mp3" id="19_bncqj"]
+[ext_resource type="Texture2D" uid="uid://dw1b1gt8gh3pm" path="res://medias/ballon.png" id="12_cv1t0"]
+[ext_resource type="Texture2D" uid="uid://c886v53d4h5p5" path="res://medias/character_zombie_sheet.png" id="12_hkc17"]
+[ext_resource type="Texture2D" uid="uid://cf333x8cgs514" path="res://medias/but droit.png" id="15_o56ie"]
+[ext_resource type="Texture2D" uid="uid://wc3bvwyogkav" path="res://medias/but gauche.png" id="16_n4ss1"]
+[ext_resource type="AudioStream" uid="uid://033nv4cdvi55" path="res://son/Level Up the Score.mp3" id="17_v2wg6"]
+[ext_resource type="AudioStream" uid="uid://v30iydc3pir5" path="res://son/goal-22502 (1).mp3" id="19_bncqj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2bti"]
 resource_local_to_scene = true
@@ -286,7 +284,6 @@ text = "0"
 [node name="Area2D2" type="Area2D" parent="."]
 collision_layer = 6
 collision_mask = 6
-script = ExtResource("3_tkklm")
 
 [node name="ButArriereDroit" type="Sprite2D" parent="Area2D2"]
 position = Vector2(1130, 421)
@@ -301,7 +298,6 @@ shape = SubResource("RectangleShape2D_d2bti")
 disable_mode = 2
 collision_layer = 6
 collision_mask = 6
-script = ExtResource("3_bncqj")
 
 [node name="ButGaucheArriere" type="Sprite2D" parent="Area2D"]
 position = Vector2(70, 415)
@@ -397,7 +393,7 @@ max_contacts_reported = 1
 [node name="Ballon" type="Sprite2D" parent="RigidBody2D"]
 position = Vector2(543, 398)
 scale = Vector2(0.078635, 0.078635)
-texture = ExtResource("14_yw4s2")
+texture = ExtResource("12_cv1t0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
 position = Vector2(543, 398)

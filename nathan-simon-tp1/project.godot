@@ -13,7 +13,11 @@ config_version=5
 config/name="nathan-simon-tp1"
 run/main_scene="uid://djrxp0aqtbbem"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://medias/icon.svg"
+
+[autoload]
+
+MonJeu="*res://mon_jeu.gd"
 
 [input]
 

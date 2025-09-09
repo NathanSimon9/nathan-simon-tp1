@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cg34ad4r4pib6"
-path="res://.godot/imported/character_robot_sheetHD.png-7b27444ced239e5ca1938af020fedb31.ctex"
+uid="uid://c886v53d4h5p5"
+path="res://.godot/imported/character_zombie_sheet.png-98d543824de812ff3feddc2d547b8d4f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character_robot_sheetHD.png"
-dest_files=["res://.godot/imported/character_robot_sheetHD.png-7b27444ced239e5ca1938af020fedb31.ctex"]
+source_file="res://medias/character_zombie_sheet.png"
+dest_files=["res://.godot/imported/character_zombie_sheet.png-98d543824de812ff3feddc2d547b8d4f.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjt0sk1qgjft2"
-path="res://.godot/imported/JOUER.png-009197e450b8b3f85d6453fcd23cf87b.ctex"
+uid="uid://cg34ad4r4pib6"
+path="res://.godot/imported/character_robot_sheetHD.png-c961e02ded126b803b95779dd380ba96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://JOUER.png"
-dest_files=["res://.godot/imported/JOUER.png-009197e450b8b3f85d6453fcd23cf87b.ctex"]
+source_file="res://medias/character_robot_sheetHD.png"
+dest_files=["res://.godot/imported/character_robot_sheetHD.png-c961e02ded126b803b95779dd380ba96.ctex"]
 
 [params]
 

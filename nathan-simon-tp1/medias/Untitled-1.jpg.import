@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmpc2b002571h"
-path="res://.godot/imported/but arriere droit.png-ff977f609794b7dcf5e020b5beb0b17d.ctex"
+uid="uid://ca4f53i6j3eee"
+path="res://.godot/imported/Untitled-1.jpg-4167405c236e815ce19d18b67cba2855.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://but arriere droit.png"
-dest_files=["res://.godot/imported/but arriere droit.png-ff977f609794b7dcf5e020b5beb0b17d.ctex"]
+source_file="res://medias/Untitled-1.jpg"
+dest_files=["res://.godot/imported/Untitled-1.jpg-4167405c236e815ce19d18b67cba2855.ctex"]
 
 [params]
 

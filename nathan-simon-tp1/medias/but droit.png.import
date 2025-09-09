@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wc3bvwyogkav"
-path="res://.godot/imported/but gauche.png-e840615ad3aba543a069fe6e56c47da0.ctex"
+uid="uid://cf333x8cgs514"
+path="res://.godot/imported/but droit.png-4b155f21620df753bf9bb532fab792e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://but gauche.png"
-dest_files=["res://.godot/imported/but gauche.png-e840615ad3aba543a069fe6e56c47da0.ctex"]
+source_file="res://medias/but droit.png"
+dest_files=["res://.godot/imported/but droit.png-4b155f21620df753bf9bb532fab792e8.ctex"]
 
 [params]
 
