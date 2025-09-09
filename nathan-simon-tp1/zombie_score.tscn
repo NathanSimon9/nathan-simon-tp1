@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://xsk83ydpbmxn"]
+
+[node name="zombie_score" type="Label"]
+offset_left = 450.0
+offset_top = 27.0
+offset_right = 556.0
+offset_bottom = 143.0
+theme_override_colors/font_color = Color(0.906366, 0.364492, 0.0622581, 1)
+theme_override_font_sizes/font_size = 85
+text = "0"
