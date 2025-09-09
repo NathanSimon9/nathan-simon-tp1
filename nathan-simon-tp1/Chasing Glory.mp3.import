@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6qfmnfimc1m4"
+path="res://.godot/imported/Chasing Glory.mp3-013c6cac92ba820a94454b9ef9546e2f.mp3str"
+
+[deps]
+
+source_file="res://Chasing Glory.mp3"
+dest_files=["res://.godot/imported/Chasing Glory.mp3-013c6cac92ba820a94454b9ef9546e2f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

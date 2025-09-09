@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgjnkkld4d820"]
+
+[ext_resource type="Script" uid="uid://bgg2el4w8gab1" path="res://robot_gagner.gd" id="1_dppri"]
+[ext_resource type="Texture2D" uid="uid://b8bs4mmron1q4" path="res://robot_gagner.jpg" id="2_p681g"]
+[ext_resource type="AudioStream" uid="uid://c6qfmnfimc1m4" path="res://Chasing Glory.mp3" id="3_p681g"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_dppri")
+
+[node name="RobotGagner" type="Sprite2D" parent="."]
+position = Vector2(589.444, 331)
+scale = Vector2(0.612963, 0.612963)
+texture = ExtResource("2_p681g")
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0.247059)
+offset_left = 532.0
+offset_top = 513.0
+offset_right = 650.0
+offset_bottom = 550.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_p681g")
+volume_db = -4.258
+autoplay = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

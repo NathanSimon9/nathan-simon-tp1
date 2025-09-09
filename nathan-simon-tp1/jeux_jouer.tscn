@@ -22,7 +22,7 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2bti"]
 resource_local_to_scene = true
-size = Vector2(190, 183.875)
+size = Vector2(181, 170.938)
 
 [sub_resource type="Animation" id="Animation_d2bti"]
 length = 0.001
@@ -304,7 +304,7 @@ scale = Vector2(0.50909, 0.4938)
 texture = ExtResource("5_f2mva")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D2"]
-position = Vector2(1147, 456)
+position = Vector2(1151.5, 462.469)
 shape = SubResource("RectangleShape2D_d2bti")
 
 [node name="Area2D" type="Area2D" parent="."]
@@ -319,7 +319,7 @@ scale = Vector2(0.55353, 0.55353)
 texture = ExtResource("4_0pxyi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(4, 440)
+position = Vector2(-4, 462)
 shape = SubResource("RectangleShape2D_d2bti")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Area2D"]
