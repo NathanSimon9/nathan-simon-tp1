@@ -6,6 +6,7 @@ func _on_area_2d_body_entered(body:Node2D) -> void:
 	
 	print("but_robot")
 	MonJeu.ajouter_bout_j2()
+	$AudioStreamPlayer2D2.play()
 	$robot_score.text = str(MonJeu.buts_j2)
 		
 	if MonJeu.buts_j2 > 6:
@@ -21,6 +22,7 @@ func _on_area_2d_2_body_entered(body: Node2D) -> void:
 	pass # Replace with function body.
 	print("but_zombie")
 	MonJeu.ajouter_bout_j1()
+	$AudioStreamPlayer2D2.play()
 	$zombie_score.text = str(MonJeu.buts_j1)
 		
 	if MonJeu.buts_j1 > 6:
