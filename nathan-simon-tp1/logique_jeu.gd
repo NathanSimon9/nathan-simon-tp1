@@ -38,3 +38,9 @@ func _on_area_2d_2_body_entered(body: Node2D) -> void:
 	
 	if buts_j1 > 6:
 		get_tree().change_scene_to_file("res://zombie_gagner.tscn")
+
+
+func _on_rigid_body_2d_body_entered(body: Node) -> void:
+	pass # Replace with function body.
+	if body is StaticBody2D:
+		$RigidBody2D/AudioStreamPlayer2D.play()
