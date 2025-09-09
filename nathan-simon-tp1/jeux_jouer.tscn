@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=4 uid="uid://b6fo6ixoswchb"]
+[gd_scene load_steps=44 format=4 uid="uid://b6fo6ixoswchb"]
 
 [ext_resource type="Script" uid="uid://5u6pfmamr006" path="res://logique_jeu.gd" id="1_e0kte"]
 [ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://TERRAIN.jpg" id="2_tkklm"]
@@ -231,22 +231,6 @@ size = Vector2(57, 102.837)
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4d7sh"]
 bounce = 1.0
 
-[sub_resource type="GDScript" id="GDScript_tkklm"]
-script/source = "extends RigidBody2D
-
-@onready var sound_bounce = $AudioStreamPlayer2D
-
-func _on_body_entered(body):
-	if body is StaticBody2D:
-		sound_bounce.play()
-		
-
-
-func _on_area_2d_body_entered(body: Node2D) -> void:
-	pass # Replace with function body.
-	
-"
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_ir8iy"]
 radius = 24.0
 
@@ -409,7 +393,6 @@ freeze_mode = 1
 continuous_cd = 2
 contact_monitor = true
 max_contacts_reported = 1
-script = SubResource("GDScript_tkklm")
 
 [node name="Ballon" type="Sprite2D" parent="RigidBody2D"]
 position = Vector2(543, 398)
