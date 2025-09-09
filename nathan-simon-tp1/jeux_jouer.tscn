@@ -1,8 +1,10 @@
-[gd_scene load_steps=42 format=4 uid="uid://b6fo6ixoswchb"]
+[gd_scene load_steps=44 format=4 uid="uid://b6fo6ixoswchb"]
 
 [ext_resource type="Script" uid="uid://5u6pfmamr006" path="res://logique_jeu.gd" id="1_e0kte"]
 [ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://medias/TERRAIN.jpg" id="2_tkklm"]
+[ext_resource type="PackedScene" uid="uid://xsk83ydpbmxn" path="res://zombie_score.tscn" id="3_tkklm"]
 [ext_resource type="Texture2D" uid="uid://cl38lqe0oqw20" path="res://medias/but gauche arriere.png" id="4_0pxyi"]
+[ext_resource type="PackedScene" uid="uid://de036ccxd7aju" path="res://robot_score.tscn" id="4_bncqj"]
 [ext_resource type="Texture2D" uid="uid://dmpc2b002571h" path="res://medias/but arriere droit.png" id="5_f2mva"]
 [ext_resource type="AudioStream" uid="uid://cnu1mewgkcc2i" path="res://son/ytmp3free.cc_goal-sound-effect-youtubemp3free.org.mp3" id="6_to3vl"]
 [ext_resource type="Script" uid="uid://dbwkmd7h1a5yb" path="res://personnage_robot.gd" id="7_04rok"]
@@ -263,23 +265,9 @@ position = Vector2(576, 325)
 scale = Vector2(0.598148, 0.598148)
 texture = ExtResource("2_tkklm")
 
-[node name="zombie_score" type="Label" parent="."]
-offset_left = 450.0
-offset_top = 27.0
-offset_right = 556.0
-offset_bottom = 143.0
-theme_override_colors/font_color = Color(0.906366, 0.364492, 0.0622581, 1)
-theme_override_font_sizes/font_size = 85
-text = "0"
+[node name="zombie_score" parent="." instance=ExtResource("3_tkklm")]
 
-[node name="robot_score" type="Label" parent="."]
-offset_left = 608.0
-offset_top = 26.0
-offset_right = 740.0
-offset_bottom = 142.0
-theme_override_colors/font_color = Color(0.905882, 0.364706, 0.0627451, 1)
-theme_override_font_sizes/font_size = 85
-text = "0"
+[node name="robot_score" parent="." instance=ExtResource("4_bncqj")]
 
 [node name="Area2D2" type="Area2D" parent="."]
 collision_layer = 6

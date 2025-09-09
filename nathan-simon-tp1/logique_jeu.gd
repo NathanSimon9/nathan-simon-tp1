@@ -10,7 +10,7 @@ func ajouter_bout_j2():
 	buts_j2 += 1
 	print("j2: ", buts_j2)
 	
-func _on_area_2d_body_entered(body:Node2D) -> void:
+func _on_area_2d_body_entered(body) -> void:
 	pass # Replace with function body.
 	
 	print("but_robot")
@@ -22,7 +22,7 @@ func _on_area_2d_body_entered(body:Node2D) -> void:
 		get_tree().change_scene_to_file("res://robot_gagner.tscn")
 
 
-func _on_area_2d_2_body_entered(body: Node2D) -> void:
+func _on_area_2d_2_body_entered(body) -> void:
 	pass # Replace with function body.
 	print("but_zombie")
 	ajouter_bout_j1()
