@@ -15,10 +15,6 @@ run/main_scene="uid://djrxp0aqtbbem"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://medias/icon.svg"
 
-[autoload]
-
-MonJeu="*res://mon_jeu.gd"
-
 [input]
 
 sauter={
