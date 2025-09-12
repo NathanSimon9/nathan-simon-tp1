@@ -95,4 +95,7 @@ func _physics_process(delta):
 			velocity.y = -jump_velocity * 1
 			  # Ajuste ce facteur pour un meilleur effet
 
+
+func _on_rigid_body_2d_body_entered(body: Node) -> void:
+	pass # Replace with function body.
 	
