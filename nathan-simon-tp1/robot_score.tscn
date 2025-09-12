@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://de036ccxd7aju"]
+
+[node name="robot_score" type="Label"]
+offset_left = 608.0
+offset_top = 26.0
+offset_right = 740.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0.905882, 0.364706, 0.0627451, 1)
+theme_override_font_sizes/font_size = 85
+text = "0"

@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://djrxp0aqtbbem"]
 
 [ext_resource type="Script" uid="uid://q58mqe5dohnh" path="res://logique_boutton.gd" id="1_sac1x"]
-[ext_resource type="Texture2D" uid="uid://ca4f53i6j3eee" path="res://Untitled-1.jpg" id="2_yvyg2"]
-[ext_resource type="Texture2D" uid="uid://cjt0sk1qgjft2" path="res://JOUER.png" id="3_rvwy3"]
-[ext_resource type="AudioStream" uid="uid://bov6l0m1qmlob" path="res://Just Kickit.mp3" id="4_yep21"]
+[ext_resource type="Texture2D" uid="uid://ca4f53i6j3eee" path="res://medias/Untitled-1.jpg" id="2_yvyg2"]
+[ext_resource type="Texture2D" uid="uid://cjt0sk1qgjft2" path="res://medias/JOUER.png" id="3_rvwy3"]
+[ext_resource type="AudioStream" uid="uid://bov6l0m1qmlob" path="res://son/Just Kickit.mp3" id="4_yep21"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahet8"]
 corner_radius_top_left = 25

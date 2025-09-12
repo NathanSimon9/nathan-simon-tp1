@@ -1,27 +1,39 @@
 extends Node
+var buts_j1 = 0
+var buts_j2 = 0
 
-
-func _on_area_2d_body_entered(body:Node2D) -> void:
+func ajouter_bout_j1():
+	buts_j1 += 1
+	print("j1: ", buts_j1)
+	
+func ajouter_bout_j2():
+	buts_j2 += 1
+	print("j2: ", buts_j2)
+	
+func _on_area_2d_body_entered(_body) -> void:
 	pass # Replace with function body.
 	
 	print("but_robot")
-	MonJeu.ajouter_bout_j2()
-	$robot_score.text = str(MonJeu.buts_j2)
+	ajouter_bout_j2()
+	$AudioStreamPlayer2D2.play()
+	$robot_score.text = str(buts_j2)
 		
-	if MonJeu.buts_j2 > 6:
-		get_tree().change_scene_to_file("res://scene_ouverture.tscn")
-	#get_tree().reload_current_scene()
-
-func _on_body_entered(body: Node) -> void:
-	pass # Replace with function body.
-	
+	if buts_j2 > 6:
+		get_tree().change_scene_to_file("res://robot_gagner.tscn")
 
 
-func _on_area_2d_2_body_entered(body: Node2D) -> void:
+func _on_area_2d_2_body_entered(_body) -> void:
 	pass # Replace with function body.
 	print("but_zombie")
-	MonJeu.ajouter_bout_j1()
-	$zombie_score.text = str(MonJeu.buts_j1)
-		
-	if MonJeu.buts_j1 > 6:
-		get_tree().change_scene_to_file("res://scene_ouverture.tscn")
+	ajouter_bout_j1()
+	$AudioStreamPlayer2D2.play()
+	$zombie_score.text = str(buts_j1)
+	
+	if buts_j1 > 6:
+		get_tree().change_scene_to_file("res://zombie_gagner.tscn")
+
+
+func _on_rigid_body_2d_body_entered(body) -> void:
+	pass # Replace with function body.
+	if body is StaticBody2D:
+		$RigidBody2D/AudioStreamPlayer2D.play()
