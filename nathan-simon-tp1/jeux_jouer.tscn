@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://e6s5ani7ly25" path="res://logique_jeu.gd" id="1_e0kte"]
 [ext_resource type="Texture2D" uid="uid://ewqj2qmy36h8" path="res://medias/TERRAIN.jpg" id="2_tkklm"]
-[ext_resource type="PackedScene" uid="uid://xsk83ydpbmxn" path="res://zombie_score.tscn" id="3_tkklm"]
+[ext_resource type="PackedScene" path="res://zombie_score.tscn" id="3_tkklm"]
 [ext_resource type="Texture2D" uid="uid://cl38lqe0oqw20" path="res://medias/but gauche arriere.png" id="4_0pxyi"]
-[ext_resource type="PackedScene" uid="uid://de036ccxd7aju" path="res://robot_score.tscn" id="4_bncqj"]
+[ext_resource type="PackedScene" path="res://robot_score.tscn" id="4_bncqj"]
 [ext_resource type="Texture2D" uid="uid://dmpc2b002571h" path="res://medias/but arriere droit.png" id="5_f2mva"]
 [ext_resource type="AudioStream" uid="uid://cnu1mewgkcc2i" path="res://son/ytmp3free.cc_goal-sound-effect-youtubemp3free.org.mp3" id="6_to3vl"]
 [ext_resource type="Script" uid="uid://dbwkmd7h1a5yb" path="res://personnage_robot.gd" id="7_04rok"]

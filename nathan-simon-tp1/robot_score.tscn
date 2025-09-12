@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://de036ccxd7aju"]
+[gd_scene load_steps=0 format=3 uid="uid://de036ccxd7aju"]
 
 [node name="robot_score" type="Label"]
 offset_left = 608.0
